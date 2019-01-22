@@ -1,5 +1,5 @@
 {
-    "name": "angular6-json-schema-form",
+    "name": "angular6-json-schema-form-fari",
     "version": "7.0.2",
     "description": "Angular JSON Schema Form builder",
     "author": "https://github.com/hamzahamidi/Angular6-json-schema-form/graphs/contributors",
@@ -18,14 +18,8 @@
         "form builder"
     ],
     "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/hamzahamidi/angular6-json-schema-form"
-    },
-    "bugs": {
-        "url": "https://github.com/hamzahamidi/angular6-json-schema-form/issues"
-    },
-    "private": false,
+   
+    "private": true,
     "peerDependencies": {
         "@angular/common": ">=6.0.0",
         "@angular/core": ">=6.0.0",

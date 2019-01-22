@@ -21,15 +21,7 @@
     "forms",
     "form builder"
   ],
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hamzahamidi/angular6-json-schema-form"
-  },
-  "bugs": {
-    "url": "https://github.com/hamzahamidi/angular6-json-schema-form/issues"
-  },
-  "homepage": "https://github.com/hamzahamidi/Angular6-json-schema-form#readme",
+  "license": "MIT",  
   "scripts": {
     "ng": "ng",
     "prestart": "npm run buildlibdev",
