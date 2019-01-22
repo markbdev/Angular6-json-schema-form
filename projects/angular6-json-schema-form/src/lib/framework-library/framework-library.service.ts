@@ -31,9 +31,14 @@ export class FrameworkLibraryService {
     this.setFramework(this.defaultFramework);
   }
 
-  public setLoadExternalAssets(loadExternalAssets = true): void {
-    this.loadExternalAssets = !!loadExternalAssets;
+  public setLoadExternalAssets(loadExternalAssets = false): void {
+   // Sometimes loadExternalAssets is coming across as a string so check for that.
+   if (typeof loadExternalAssets === 'string') {
+    const stringLoadExternalAssets = loadExternalAssets as string;
+    loadExternalAssets = stringLoadExternalAssets.toLowerCase() === 'false' ? false : true;
   }
+  this.loadExternalAssets = !!loadExternalAssets;
+}
 
   public setFramework(
     framework: string|Framework = this.defaultFramework,
